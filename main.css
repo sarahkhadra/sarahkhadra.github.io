@@ -4,15 +4,23 @@ p
   bottom: 0;
 }
 
-.name
-{
+
+.play-on-hover{
+
+  background-image: url(./IMAGES/skh-static.png);
+  background-size: cover;
+  cursor: pointer;
+
   position: absolute;
   margin: auto;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 50%;
+  width: 40%;
 
+}
 
+.play-on-hover:hover{
+  background-image: url(./IMAGES/skh.gif);
 }
